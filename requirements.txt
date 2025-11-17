@@ -1,14 +1,23 @@
 streamlit
-pandas
-numpy
-plotly
+torch
+torchvision
+transformers
 Pillow
-opencv-python
-scikit-learn
+numpy
+```
 
-# Install required packages
-pip install streamlit opencv-python numpy
+**Remove these lines** from requirements.txt:
+- The pip install command
+- The streamlit run command
+- Comments about installation
 
-# Run the application
-streamlit run image_caption_generation.py
+---
 
+## Recommended File Structure:
+```
+your-repo/
+├── main.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── (optional) sample_images/
